@@ -1,0 +1,848 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"C",
+				"Calendar"
+			],
+			[
+				"al",
+				"align-self\tproperty"
+			],
+			[
+				"fl",
+				"flex\tdisplay"
+			],
+			[
+				"l",
+				"localizer"
+			],
+			[
+				"Admin",
+				"AdminFilters"
+			],
+			[
+				"admin",
+				"adminFilter"
+			],
+			[
+				"A",
+				"ACCOUNT_TAB\t(index.js)"
+			],
+			[
+				"Ad",
+				"AdminFilters"
+			],
+			[
+				"flex",
+				"flex-start\tjustify-content"
+			],
+			[
+				"space",
+				"space-around\tjustify-content"
+			],
+			[
+				"auth",
+				"authorization-form"
+			],
+			[
+				"direc",
+				"flex-direction\tproperty"
+			],
+			[
+				"react-",
+				"react-router-dom\t(Navbar.js)"
+			],
+			[
+				"react",
+				"react-router-dom\t(Admin.js)"
+			],
+			[
+				"owner",
+				"ownerName"
+			],
+			[
+				"map",
+				"mapStateToProps"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"c",
+				"c\tcolor: #${1:000};"
+			],
+			[
+				"if",
+				"ifErrors"
+			],
+			[
+				"post",
+				"postNewMessage"
+			],
+			[
+				"Compo",
+				"ComponentToBeRendered"
+			],
+			[
+				"pro",
+				"profileImageUrl"
+			],
+			[
+				"bg",
+				"bgc\tbackground-color: #${1:fff};"
+			],
+			[
+				"Mess",
+				"MessageTimeline"
+			],
+			[
+				"mess",
+				"messageList"
+			],
+			[
+				"text",
+				"text-muted"
+			],
+			[
+				"jwt",
+				"jwtToken"
+			],
+			[
+				"set",
+				"setCurrentUser"
+			],
+			[
+				"add",
+				"addError"
+			],
+			[
+				"load",
+				"loadMessages"
+			],
+			[
+				"button",
+				"buttonText"
+			],
+			[
+				"handle",
+				"handleSubmit"
+			],
+			[
+				"on",
+				"onChange"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"Homp",
+				"Homepage"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"cu",
+				"cur\tcursor: ${pointer};"
+			],
+			[
+				"diir",
+				"diir_img_url"
+			],
+			[
+				"gal",
+				"gallery-img"
+			],
+			[
+				"email",
+				"email-signup"
+			],
+			[
+				"an",
+				"anim-\tanimation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"animd",
+				"animdur\tanimation-duration: ${1:0}s;"
+			],
+			[
+				"Fil",
+				"FilterLink"
+			],
+			[
+				"filter",
+				"filterCarts"
+			],
+			[
+				"Get",
+				"GET_CARTS"
+			],
+			[
+				"Marker",
+				"MarkerStyle"
+			],
+			[
+				"Mark",
+				"MarkerStyleHover"
+			],
+			[
+				"cart",
+				"cartReducer"
+			],
+			[
+				"brd",
+				"bdrst\tborder-right-style"
+			],
+			[
+				"De",
+				"DEFAULT_STATE"
+			],
+			[
+				"delete",
+				"deleteMessage"
+			],
+			[
+				"mes",
+				"message_id"
+			],
+			[
+				"messages",
+				"messagesRoutes"
+			],
+			[
+				"found",
+				"foundMessage"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"has",
+				"hashedPassword"
+			],
+			[
+				"bc",
+				"bcrypt"
+			],
+			[
+				"user",
+				"userSchema"
+			],
+			[
+				"error",
+				"errorHandler"
+			],
+			[
+				"Cart",
+				"CartList"
+			],
+			[
+				"Compon",
+				"Components"
+			],
+			[
+				"prop",
+				"propTypes"
+			],
+			[
+				"window",
+				"windowWidth"
+			],
+			[
+				"fa",
+				"faStroopwafel"
+			],
+			[
+				"render",
+				"renderMarkers"
+			],
+			[
+				"hover",
+				"hoverStyle"
+			],
+			[
+				"Google",
+				"GoogleMapReact"
+			],
+			[
+				"format",
+				"formatType"
+			],
+			[
+				"show",
+				"showingInfoWindow"
+			],
+			[
+				"lat",
+				"latLng"
+			],
+			[
+				"with",
+				"withGoogleMap"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"todo",
+				"todoRoutes"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"To",
+				"TodoList"
+			],
+			[
+				"han",
+				"handleChange"
+			],
+			[
+				"root",
+				"rootReducer"
+			],
+			[
+				"writing",
+				"writingProjectsHtml"
+			],
+			[
+				"second",
+				"secondary-font"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"fot",
+				"font-face"
+			],
+			[
+				"thin",
+				"thin-outline"
+			],
+			[
+				"outline",
+				"outline-color"
+			],
+			[
+				"Reac",
+				"ReactMarked"
+			],
+			[
+				"tex",
+				"textarea"
+			],
+			[
+				"Recipe",
+				"RecipeCard"
+			],
+			[
+				"webpack",
+				"webpack-dev-server"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mark",
+				"markdownExampleGenerator"
+			],
+			[
+				"markdow",
+				"markdownExampleArray"
+			],
+			[
+				"markd",
+				"markdownTypes"
+			],
+			[
+				"hea",
+				"header1"
+			],
+			[
+				"Com",
+				"comment"
+			],
+			[
+				"Comm",
+				"CommentForm"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"ip",
+				"ipsumText"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/App.js",
+			"settings":
+			{
+				"buffer_size": 251,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Calendar.js",
+			"settings":
+			{
+				"buffer_size": 3942,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pan",
+				"Pandoc"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pand",
+				"Pandoc"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"linter settings",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 147.0,
+		"history":
+		[
+			"eslint --init",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Ashlie/Coding/freelance-projects/leo"
+	],
+	"file_history":
+	[
+		"/Users/Ashlie/Coding/freelance-projects/leo/src/App.css",
+		"/usr/local/bin/subl",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/store/reducers/index.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/store/reducers/adminFilter.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/store/reducers/visibilityFilter.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/store/actions/index.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/css/Admin.css",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/components/Owners.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/index.css",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/containers/App.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/containers/Navbar.js",
+		"/Users/Ashlie/Coding/food-cart-app/server/models/user.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/hocs/withAuth.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/containers/Main.js",
+		"/Users/Ashlie/Coding/food-cart-app/server/handlers/auth.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/components/Authform.js",
+		"/Users/Ashlie/Coding/food-cart-app/server/index.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/components/Admin.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/package.json",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/store/actions/auth.js",
+		"/Users/Ashlie/Coding/food-cart-app/food-cart-app.sublime-project",
+		"/Users/Ashlie/Coding/food-cart-app/server/package.json",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/package.json",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/store/actionTypes.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/store/actions/errors.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/containers/Navbar.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/store/index.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/store/reducers/index.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/store/reducers/errors.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/handlers/auth.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/routes/auth.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/services/api.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/containers/Main.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/index.css",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/models/message.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/containers/MessageList.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/components/MessageItem.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/hocs/withAuth.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/store/reducers/messages.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/store/actions/messages.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/containers/MessageForm.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/components/UserAside.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/components/MessageTimeline.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/components/Homepage.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/index.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/index.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/containers/App.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/store/actions/auth.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/components/Authform.js",
+		"/Users/Ashlie/Coding/freelance-projects/diir/sass/_blog.scss",
+		"/Users/Ashlie/Coding/freelance-projects/diir/sass/style.scss",
+		"/Users/Ashlie/Coding/freelance-projects/diir/sass/_frontpage.scss",
+		"/Users/Ashlie/Coding/freelance-projects/diir/wp-content/themes/diir/front-page.php",
+		"/Users/Ashlie/Coding/freelance-projects/diir/wp-content/themes/generic-flex/page.php",
+		"/Users/Ashlie/Coding/freelance-projects/diir/wp-content/themes/generic-flex/index.php",
+		"/Users/Ashlie/Coding/freelance-projects/diir/wp-content/themes/generic-flex/style.css",
+		"/usr/local/bin/deep-into-indigo.sublime-project",
+		"/Users/Ashlie/Coding/freelance-projects/diir/wp-content/themes/generic-flex/header.php",
+		"/Users/Ashlie/Coding/freelance-projects/diir/wp-content/themes/generic-flex/functions.php",
+		"/Users/Ashlie/Coding/freelance-projects/diir/wp-content/themes/generic-flex/comments.php",
+		"/Users/Ashlie/Coding/freelance-projects/diir/wp-content/themes/generic-flex/footer.php",
+		"/Users/Ashlie/Coding/freelance-projects/diir/wp-content/themes/generic-flex/front-page.php",
+		"/Users/Ashlie/Coding/freelance-projects/diir/sass/_font.scss",
+		"/Users/Ashlie/Coding/freelance-projects/ym/wp-content/themes/ym-flex/front-page.php",
+		"/Users/Ashlie/Coding/freelance-projects/indigo/wp-content/themes/indigo/footer.php",
+		"/Users/Ashlie/Coding/freelance-projects/indigo/sass/_font.scss",
+		"/Users/Ashlie/Coding/freelance-projects/indigo/wp-content/themes/indigo/header.php",
+		"/Users/Ashlie/Coding/freelance-projects/indigo/sass/style.scss",
+		"/Users/Ashlie/Documents/Freelance Documents/Contracts/Deep Into Indigo.md",
+		"/Users/Ashlie/Documents/Freelance Documents/Contract Killer markdown template/Contract Killer 3.md",
+		"/Users/Ashlie/Library/Application Support/Sublime Text 3/Packages/User/Pandoc.sublime-settings",
+		"/Users/Ashlie/Library/Application Support/Sublime Text 3/Packages/Pandoc/Pandoc.sublime-settings",
+		"/Users/Ashlie/Coding/heroku-food-cart-app/src/reducers/rootReducer.js",
+		"/Users/Ashlie/Coding/heroku-food-cart-app/src/App.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/components/CartList.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/containers/test.html",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/open",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/components/CartList.scss",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/components/Privacy.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/containers/FilterLink.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/containers/VisibleCartList.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/containers/CartList.scss",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/containers/CartList.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/components/ListOfCarts.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/store/actions/actionCreators.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/containers/Map.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/store/reducers/carts.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/store/reducers/rootReducer.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/components/FoodTypes.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/components/MarkerStyle.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/containers/CartList.css",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/containers/test.css",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/public/index.html",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/store/reducers/currentUser.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-client/src/App.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/middleware/auth.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/models/index.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/routes/messages.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/handlers/messages.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/models/user.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/models/test.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/handlers/test.js",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/.env",
+		"/Users/Ashlie/Coding/practice/warbler/warbler-server/handlers/error.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/TestPlace.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/TestHoverStyle.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/TestMap.js",
+		"/Users/Ashlie/Desktop/food-cart-app/package.json",
+		"/food-cart-app",
+		"/Users/Ashlie/Coding/original-food-cart-app/frontend/src/Components/Privacy.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/App.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/ListOfCarts.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/WebsiteLinks.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/public/index.html",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/Marker.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/FoodTypes.scss",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/Marker.scss",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/Cart.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/Marker.css",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/Cart.scss",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/About.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/App.scss",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/Map.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/App.css",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/Contact.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/node_modules/react-router/es/Router.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/Navbar.js",
+		"/Users/Ashlie/Coding/food-cart-app/frontend/src/Components/WebsiteLinks.scss"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/Ashlie/Coding/freelance-projects/leo/node_modules"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"react-big-calendar/lib/css/react-big-calendar.css",
+			"endTime",
+			"end:",
+			"end",
+			"2015"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Calendar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "leo-scheduling.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
