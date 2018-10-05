@@ -12,16 +12,17 @@ class Navbar extends Component {
   render() {
 
     return (
-      <header>
-        <Link to="/" className="navbar-brand" id="page-title">Let's Eat Out</Link>
+      <nav>
+        <div className="nav-wrapper">
+        <Link to="/" className="brand-logo" id="page-title">Let's Eat Out</Link>
         {this.props.currentUser.isAuthenticated ? (
-          <ul className="nav-items">
+          <ul className="right" id="nav-mobile">
             <li>
-              <a onClick={this.logout}>Log Out</a>
+              <span id="log-out" onClick={this.logout}>Log Out</span>
             </li>
           </ul>
             ) : (
-            <ul className="nav-items">
+            <ul className="right hide-on-med-and-down" id="nav-mobile">
               <li>
                 <Link to="/signup">Sign Up</Link>
               </li>
@@ -31,7 +32,8 @@ class Navbar extends Component {
             </ul>
             )
           }
-      </header>
+        </div>
+      </nav>
     )
   }
 };

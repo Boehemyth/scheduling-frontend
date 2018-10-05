@@ -43,7 +43,7 @@ export default class Authform extends Component {
         {errors.message && (
           <div className="alert box">{errors.message}</div>
         )}
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} autoComplete="off">
           <div>
             <label htmlFor="email">Email:</label>
             <input 
