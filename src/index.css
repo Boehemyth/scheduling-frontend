@@ -19,3 +19,7 @@ body {
 .no-bottom-margin {
   margin-bottom: 0px !important;
 }
+
+.rbc-calendar {
+  height: 80vh !important;
+}

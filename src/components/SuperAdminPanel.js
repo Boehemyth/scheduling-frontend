@@ -2,9 +2,7 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import 'react-tabs/style/react-tabs.css';
 
-// import BigCalendar from "react-big-calendar";
-// import moment from "moment";
-
+import SuperCalendar from "../containers/SuperCalendar";
 import NewEventForm from "../containers/NewEventForm";
 
 const SuperAdminPanel = () => (
@@ -18,20 +16,9 @@ const SuperAdminPanel = () => (
       <NewEventForm />
     </TabPanel>
     <TabPanel>
-      Calendar
+      <SuperCalendar />
     </TabPanel>
   </Tabs>
 );
 
 export default SuperAdminPanel;
-
-// const localizer = BigCalendar.momentLocalizer(moment);
-
-// const SuperCalendar = props => (
-//   <div>
-//     <BigCalendar 
-//       localizer={localizer}
-      
-//     />
-//   </div>
-// );

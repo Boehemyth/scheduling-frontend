@@ -16,10 +16,10 @@ class NewEventForm extends Component {
       organization: '',
       email: '',
       phone: '',
-      date: moment(),
       startDate: moment(),
-      timeStart: '',
-      timeEnd: '',
+      start: '',
+      endDate: moment(),
+      end: '',
       location: ''
     }
   }
@@ -30,11 +30,19 @@ class NewEventForm extends Component {
     })
   };
 
-  handleDateChange = date => {
-    let val = date.format();
+  handleStartDateChange = date => {
+    let val = date.format("YYYY, M, D, H, mm");
     this.setState({
-      date: val,
       startDate: date,
+      start: val
+    })
+  };
+
+  handleEndDateChange = date => {
+    let val = date.format("YYYY, M, D, H, mm");
+    this.setState({
+      endDate: date,
+      end: val
     })
   };
 
@@ -48,9 +56,10 @@ class NewEventForm extends Component {
       organization: '',
       email: '',
       phone: '',
-      date: '',
-      timeStart: '',
-      timeEnd: '',
+      startDate: moment(),
+      start: '',
+      endDate: moment(),
+      end: '',
       location: ''
     });
   };
@@ -62,8 +71,6 @@ class NewEventForm extends Component {
       organization,
       phone,
       email,
-      timeStart, 
-      timeEnd, 
       location
     } = this.state;
 
@@ -145,31 +152,28 @@ class NewEventForm extends Component {
           </div> 
         </div>
         <div className="row no-bottom-margin">
-          <div className="col s12 l4">
+          <div className="col s12 l6">
             <label htmlFor="date">Date:</label>
             <DatePicker
               selected={this.state.startDate}
-              onChange={this.handleDateChange}
+              onChange={this.handleStartDateChange}
+              showTimeSelect
+              timeFormat="HH:mm"
+              timeIntervals={15}
+              dateFormat="LLL"
+              timeCaption="time"
             />
           </div>
-          <div className="col s12 l4">
-            <label htmlFor="timeStart">Start:</label>
-            <input 
-              type="text"
-              id="timeStart"
-              name="timeStart"
-              value={timeStart}
-              onChange={this.handleChange}
-            />
-          </div>
-          <div className="col s12 l4">
-            <label htmlFor="timeEnd">End:</label>
-            <input 
-              type="text"
-              id="timeEnd"
-              name="timeEnd"
-              value={timeEnd}
-              onChange={this.handleChange}
+          <div className="col s12 l6">
+            <label htmlFor="date">Date:</label>
+            <DatePicker
+              selected={this.state.endDate}
+              onChange={this.handleEndDateChange}
+              showTimeSelect
+              timeFormat="HH:mm"
+              timeIntervals={15}
+              dateFormat="LLL"
+              timeCaption="time"
             />
           </div>
         </div>

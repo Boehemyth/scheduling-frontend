@@ -1,23 +1,21 @@
-import React from 'react';
+import React from "react";
 import BigCalendar from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import moment from "moment";
 
-const localizer = BigCalendar.momentLocalizer(moment);
-const events = [{
+const events = [
+  {
     id: 0,
     title: 'All Day Event very long title',
     allDay: true,
-    start: new Date(2015, 3, 0),
-    end: new Date(2015, 3, 1),
-    type: 'pop-up'
+    start: "2018-10-5T18:58:4",
+    end: "2018-10-5T18:58:4",
   },
   {
     id: 1,
     title: 'Long Event',
     start: new Date(2015, 3, 7),
     end: new Date(2015, 3, 10),
-    type: 'pop-up'
   },
 
   {
@@ -25,7 +23,6 @@ const events = [{
     title: 'DTS STARTS',
     start: new Date(2016, 2, 13, 0, 0, 0),
     end: new Date(2016, 2, 20, 0, 0, 0),
-    type: 'pop-up'
   },
 
   {
@@ -33,7 +30,6 @@ const events = [{
     title: 'DTS ENDS',
     start: new Date(2016, 10, 6, 0, 0, 0),
     end: new Date(2016, 10, 13, 0, 0, 0),
-    type: 'pop-up'
   },
 
   {
@@ -41,14 +37,12 @@ const events = [{
     title: 'Some Event',
     start: new Date(2015, 3, 9, 0, 0, 0),
     end: new Date(2015, 3, 10, 0, 0, 0),
-    type: 'pop-up'
   },
   {
     id: 5,
     title: 'Conference',
     start: new Date(2015, 3, 11),
     end: new Date(2015, 3, 13),
-    type: 'pop-up',
     desc: 'Big conference for important people',
   },
   {
@@ -56,7 +50,6 @@ const events = [{
     title: 'Meeting',
     start: new Date(2015, 3, 12, 10, 30, 0, 0),
     end: new Date(2015, 3, 12, 12, 30, 0, 0),
-    type: 'pop-up',
     desc: 'Pre-meeting meeting, to prepare for the meeting',
   },
   {
@@ -64,7 +57,6 @@ const events = [{
     title: 'Lunch',
     start: new Date(2015, 3, 12, 12, 0, 0, 0),
     end: new Date(2015, 3, 12, 13, 0, 0, 0),
-    type: 'pop-up',
     desc: 'Power lunch',
   },
   {
@@ -72,14 +64,12 @@ const events = [{
     title: 'Meeting',
     start: new Date(2015, 3, 12, 14, 0, 0, 0),
     end: new Date(2015, 3, 12, 15, 0, 0, 0),
-    type: 'pop-up'
   },
   {
     id: 9,
     title: 'Happy Hour',
     start: new Date(2015, 3, 12, 17, 0, 0, 0),
     end: new Date(2015, 3, 12, 17, 30, 0, 0),
-    type: 'pop-up',
     desc: 'Most important meal of the day',
   },
   {
@@ -87,35 +77,30 @@ const events = [{
     title: 'Dinner',
     start: new Date(2015, 3, 12, 20, 0, 0, 0),
     end: new Date(2015, 3, 12, 21, 0, 0, 0),
-    type: 'pop-up'
   },
   {
     id: 11,
     title: 'Birthday Party',
     start: new Date(2015, 3, 13, 7, 0, 0),
     end: new Date(2015, 3, 13, 10, 30, 0),
-    type: 'pop-up'
   },
   {
     id: 12,
     title: 'Late Night Event',
     start: new Date(2015, 3, 17, 19, 30, 0),
     end: new Date(2015, 3, 18, 2, 0, 0),
-    type: 'pop-up'
   },
   {
     id: 12.5,
     title: 'Late Same Night Event',
     start: new Date(2015, 3, 17, 19, 30, 0),
     end: new Date(2015, 3, 17, 23, 30, 0),
-    type: 'pop-up'
   },
   {
     id: 13,
     title: 'Multi-day Event',
     start: new Date(2015, 3, 20, 19, 30, 0),
     end: new Date(2015, 3, 22, 2, 0, 0),
-    type: 'pop-up'
   },
   {
     id: 14,
@@ -125,53 +110,15 @@ const events = [{
   },
 ];
 
+const localizer = BigCalendar.momentLocalizer(moment);
 
-class Selectable extends React.Component {
-  constructor(...args) {
-    super(...args)
-
-    this.state = { events }
-  }
-
-  handleSelect = ({ start, end }) => {
-    const title = window.prompt('New Event name')
-    if (title)
-      this.setState({
-        events: [
-          ...this.state.events,
-          {
-            start,
-            end,
-            title,
-          },
-        ],
-      })
-  }
-
-  render() {
-    return (
-        <BigCalendar
-          selectable
-          localizer={localizer}
-          events={this.state.events}
-          defaultView={BigCalendar.Views.WEEK}
-          scrollToTime={new Date(1970, 1, 1, 6)}
-          defaultDate={new Date(2015, 3, 12)}
-          onSelectEvent={event => alert("Boo!")}
-          onSelectSlot={this.handleSelect}
-          components={{
-            month: { event: MonthEvent }
-          }}
-        />
-    )
-  }
-}
-
-const MonthEvent = ({event}) => (
-  <div className="monthly-event">
-    <div className={event.type}>{event.title}</div>
-    <div className="start-time"></div>
+const SuperCalendar = props => (
+  <div>
+    <BigCalendar 
+      localizer={localizer}
+      events={events}
+    />
   </div>
 );
 
-export default Selectable;
+export default SuperCalendar;
