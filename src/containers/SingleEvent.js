@@ -1,16 +1,13 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { fetchSingleEvent } from "../store/actions/events";
+
 
 class SingleEvent extends Component {
-  componentDidMount() {
-    this.props.fetchSingleEvent();
-  }
 
   render() {
     return (
       <div>
-        This is an Event!
+        <h1>Hello</h1>
       </div>
     );
   }
@@ -19,7 +16,7 @@ class SingleEvent extends Component {
 function mapStateToProps(state) {
   return {
     events: state.events
-  }
-}
+  };
+};
 
-export default connect(mapStateToProps, { fetchSingleEvent })(SingleEvent);
+export default connect(mapStateToProps)(SingleEvent);
