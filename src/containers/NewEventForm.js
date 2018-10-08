@@ -31,15 +31,16 @@ class NewEventForm extends Component {
   };
 
   handleStartDateChange = date => {
-    let val = date.format("YYYY, M, D, H, mm");
+    let val = moment(date).format("YYYY-MM-DD HH:mm");
     this.setState({
       startDate: date,
+      endDate: date,
       start: val
     })
   };
 
   handleEndDateChange = date => {
-    let val = date.format("YYYY, M, D, H, mm");
+    let val = moment(date).format("YYYY-MM-DD HH:mm");
     this.setState({
       endDate: date,
       end: val

@@ -12,6 +12,10 @@ body {
   flex-direction: column;
 }
 
+.nav-wrapper {
+  padding: 0 10px;
+}
+
 #log-out {
   cursor: pointer;
 }
@@ -22,4 +26,8 @@ body {
 
 .rbc-calendar {
   height: 80vh !important;
+}
+
+.react-datepicker__input-container {
+  width: 250px;
 }

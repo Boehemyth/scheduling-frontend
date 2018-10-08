@@ -13,7 +13,7 @@ class Admin extends Component {
 
     return (
       <div>
-        <h1>Welcome, {user.name}!</h1>
+        <h4>Welcome, {user.name}!</h4>
         {userAdmin}
       </div>
     );

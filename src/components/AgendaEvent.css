@@ -1,0 +1,12 @@
+.event-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-carts {
+  margin: 5px 0;
+}
+
+.event-update .material-icons {
+  font-size: 16px;
+}

@@ -4,20 +4,27 @@ import 'react-tabs/style/react-tabs.css';
 
 import SuperCalendar from "../containers/SuperCalendar";
 import NewEventForm from "../containers/NewEventForm";
+import NewCartForm from "../containers/NewCartForm";
 
 const SuperAdminPanel = () => (
   <Tabs>
+    
     <TabList>
-      <Tab>Event Calendar</Tab>
       <Tab>Calendar</Tab>
+      <Tab>Add Event</Tab>
+      <Tab>Add New Cart</Tab>
     </TabList>
 
+    <TabPanel>
+      <SuperCalendar />
+    </TabPanel>
     <TabPanel>
       <NewEventForm />
     </TabPanel>
     <TabPanel>
-      <SuperCalendar />
+      <NewCartForm />
     </TabPanel>
+
   </Tabs>
 );
 

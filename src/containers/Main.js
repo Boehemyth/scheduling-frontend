@@ -8,6 +8,7 @@ import { removeError } from "../store/actions/errors";
 import withAuth from "../hocs/withAuth"; 
 
 import Admin from "./Admin";
+import SingleEvent from "./SingleEvent";
 
 const Main = props => {
   const { authUser, errors, removeError } = props;
@@ -39,6 +40,7 @@ const Main = props => {
             />
           )
         }} />
+        <Route path="/api/admin/events/:event" component={SingleEvent} />
         <Route exact path="/" component={withAuth(Admin)} />
       </Switch>
     </div>
