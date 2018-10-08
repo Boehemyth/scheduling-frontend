@@ -1,6 +1,6 @@
 import { apiCall } from "../../services/api";
 import { addError } from "./errors";
-import { LOAD_EVENTS, REMOVE_EVENT, UPDATE_EVENT } from "../actionTypes";
+import { LOAD_EVENTS, UPDATE_EVENT } from "../actionTypes";
 
 export const loadEvents = events => ({
   type: LOAD_EVENTS,
@@ -18,11 +18,6 @@ export const fetchEvents = () => {
       })
   };
 };
-
-export const removeEvent = id => ({
-  type: REMOVE_EVENT,
-  id
-});
 
 export const addEvent = event => (dispatch) => {
   return apiCall("post", "/api/admin/events", { event })
