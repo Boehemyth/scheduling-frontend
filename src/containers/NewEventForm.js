@@ -49,7 +49,6 @@ class NewEventForm extends Component {
 
   handleNewEvent = e => {
     e.preventDefault();
-    console.log(this.state);
     this.props.addEvent(this.state);
     this.setState({
       title: '',
