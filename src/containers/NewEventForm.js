@@ -77,8 +77,8 @@ class NewEventForm extends Component {
     return(
       <form onSubmit={this.handleNewEvent}>
         {this.props.errors.message && 
-          <div className="cart red">
-            <div className="cart-content white-text error">
+          <div className="card red">
+            <div className="card-content white-text error">
               {this.props.errors.message}
             </div>
           </div>
