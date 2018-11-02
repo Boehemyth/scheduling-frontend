@@ -31,3 +31,12 @@ body {
 .react-datepicker__input-container {
   width: 250px;
 }
+
+.modal-footer .modal-footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
