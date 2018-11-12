@@ -11,6 +11,7 @@ class CartList extends Component {
     this.props.fetchCarts();
   }
 
+  // This doesn't work because it's feeding cartform from props, and not state
   handleChange = e => {
     this.setState({
       [e.target.name]: e.target.value

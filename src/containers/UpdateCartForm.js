@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { updateCart } from "../store/actions/carts";
 
+// Is this used?  I think CartList just renders a pure CartForm.
 class UpdateCartForm extends Component {
   constructor(props) {
     super(props);
-    
+
     this.state = {
       id: this.props.id,
       cartName: this.props.name,

@@ -33,10 +33,11 @@ class NewCartForm extends Component {
 
   render() {
     const { cartName, owner, email, phone } = this.state;
-    
+
+    // Isn't this the same as CartForm?  If so, we should use that here instead of duplicating our code.
     return (
       <form onSubmit={this.handleNewCart}>
-        
+
         <div className="row no-bottom-margin">
           <div className="input-field col s12">
             <label htmlFor="cartName">Cart Name:</label>
